@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'SDMiSaeng';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SDMiSaeng.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "KOTRA_BOLD-Bold";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .font-kotra {
+    font-family: "KOTRA_BOLD-Bold";
+  }
+  
+  .font-Gong{
+    font-family: 'GongGothicLight';
+  
+  }
+  .font-SDMISaeng{
+    font-family: 'SDMiSaeng';
+  }
+  

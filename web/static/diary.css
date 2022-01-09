@@ -1,0 +1,100 @@
+
+.content-box {
+    position: relative;
+  }  
+
+.date-box {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  height: 3rem;
+
+  border: 1px solid #e7e7e7;
+
+  display: flex;
+  align-items: center;
+}
+
+.today {
+  flex: 0 0 2rem;
+  margin: 0 1rem;
+  text-align: center;
+  color: #3b87ab;
+  font-weight: 700;
+}
+
+.date-list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.date {
+  flex: 0 0 1.5rem;
+  color: #707070;
+  cursor: pointer;
+  text-align: center;
+}
+
+.scroll-box {
+  position: absolute;
+  margin-top: 4rem;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow: auto;
+}
+
+.color-red {
+	color: red;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.diary-box{
+    border: 1px solid #e7e7e7;
+    padding: 1rem;
+    margin-bottom: 1.3rem;
+
+}
+
+.diary-box-date{
+    font-size: 0.8rem;
+  color: #697eaf;
+  margin-bottom: 1.5rem;
+}
+
+.diary-text{
+    text-align: center;
+    font-size:1.2rem;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+}
+
+.diary-button{
+    margin-top: 1.5rem;
+    background: white;
+    color: white;
+    padding: 0.8rem;
+    transition: 800ms ease all;
+    border: none;
+}
+
+
+.diary-button:hover {
+    background: #8fa4df;
+    color: white;
+  }
+ 
+  #secret-box {
+    display: none;
+    margin-right: 10rem;
+  }

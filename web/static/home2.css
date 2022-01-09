@@ -1,0 +1,77 @@
+
+.news{
+  display: flex;
+ 
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.news-content{
+  flex:1;
+}
+.news-list{
+  display: flex;
+  font-size: 0.85rem;
+  margin: 2px 0;
+}
+
+.list {
+    padding: 0 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .news-photo {
+    background-color: #db6464;
+  }
+  
+  .news-post {
+    background-color: #6a86cb;
+  }
+
+  .update-box{
+      flex:1;
+  }
+
+  .content-title {
+    border-bottom: 1px solid grey;
+    color: #3b5dab;
+    font-family: "KOTRA_BOLD-Bold";
+  }
+
+  .update-list {
+    display: flex;
+    border-bottom: 1px dashed grey;
+    margin: 5px 0;
+  }
+  
+  .update-name {
+    flex: 1;
+  }
+
+  .num {
+    padding-left: 5px;
+    color: #003399;
+    font-family: 'GongGothicLight';
+    font-size: 0.7rem;
+  }
+
+  .miniroom {
+    flex: 1;
+  }
+  
+
+  .miniroom-img{
+    background-color: #dcf7f7;
+  border: 1px solid #808080;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .miniroom-img > img {
+    width: 90%;
+  }
+  
